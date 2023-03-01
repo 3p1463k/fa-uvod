@@ -1,0 +1,18 @@
+#api
+fastapi
+uvicorn
+
+#code cleaning
+pre-commit
+
+#template
+jinja2
+
+#static files
+aiofiles
+
+#file processing
+python-multipart
+
+#documentation
+mkdocs-material
