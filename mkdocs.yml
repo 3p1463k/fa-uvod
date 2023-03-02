@@ -1,0 +1,88 @@
+# Project information
+site_name: FastAPI tutorial
+site_url: https://3p1463k.github.io/fa-uvod/
+site_author: Evzen Ptacek
+
+
+# Repository
+repo_name: 3p1463k/fa-uvod
+repo_url: https://github.com/3p1463k/fa-uvod
+
+# Navigation
+nav:
+- FastAPI: index.md
+
+- Tutorial:
+  - tutorial/tutorial.md
+  - tutorial/first-steps.md
+- 'async.md'
+    # - 'databaze.md'
+    # - 'apis.md'
+    # - 'admin.md'
+    # - 'schemas.md'
+    # - 'models.md'
+    # - 'templates.md'
+    # - 'webapps.md'
+    # - 'tests.md'
+    # - 'codeclean.md'
+    # - 'deploy.md'
+    # - 'documentation.md'
+    #
+
+
+# Configuration
+theme:
+  name: material
+
+  palette:
+    scheme: default
+    primary: orange
+    accent: blue
+  icon:
+    repo: fontawesome/brands/github-alt
+
+  features:
+    - navigation.footer
+    #- navigation.sections
+    - content.code.copy
+    - navigation.top
+    #- navigation.tracking
+    #- navigation.sections
+    - navigation.expand
+
+
+
+
+# Markdown extensions
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: false
+- mdx_include:
+    base_path: docs
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+- pymdownx.tabbed:
+    alternate_style: true
+- attr_list
+- md_in_html
+# Extensions
+plugins:
+  - glightbox
+  - search
+
+#Extra css
+extra_css:
+- https://fastapi.tiangolo.com/css/termynal.css
+- https://fastapi.tiangolo.com/css/custom.css
+#Extra js
+extra_javascript:
+- https://fastapi.tiangolo.com/js/termynal.js
+- https://fastapi.tiangolo.com/js/custom.js
