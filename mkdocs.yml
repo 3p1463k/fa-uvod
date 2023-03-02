@@ -33,14 +33,24 @@ nav:
 # Configuration
 theme:
   name: material
-
   palette:
+  - media: '(prefers-color-scheme: light)'
     scheme: default
-    primary: orange
-    accent: blue
+    primary: indigo
+    accent: amber
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: indigo
+    accent: red
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
   icon:
     repo: fontawesome/brands/github-alt
-
+  language: cs
   features:
     - navigation.footer
     #- navigation.sections
