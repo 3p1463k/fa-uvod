@@ -13,7 +13,7 @@ Můžete se tedy vrátit a nalézt přesně to, co potřebujete.
 
 Prvním krokem je instalace FastAPI.
 
-Pro tutorial jej možná budete chtít nainstalovat se všemi volitelnými závislostmi a funkcemi:
+Pro tento tutoriál nainstalujte se všemi volitelnými závislostmi a funkcemi:
 <div class="termy">
 
 ```console
@@ -27,19 +27,20 @@ $ pip install "fastapi[all]"
 ... obsahuje také `uvicorn`, který můžete použít jako server, na kterém běží váš kód.
 
 
-!!! note
-Můžete také nainstalovat po částech.
-Toto byste pravděpodobně udělali, jakmile budete chtít nasadit aplikaci do produkce:
-    ```
-    pip install fastapi
-    ```
+!!! Poznámka
 
-Nainstalujte také `uvicorn`, aby fungoval jako server:
-    ```
-    pip install "uvicorn[standard]"
-    ```
+    Můžete také nainstalovat po částech.
+    Toto byste pravděpodobně udělali, jakmile budete chtít nasadit aplikaci do produkce:
+        ```
+        pip install fastapi
+        ```
 
-A totéž pro každou z volitelných závislostí, které chcete použít.
+    Nainstalujte také `uvicorn`, aby fungoval jako server:
+        ```
+        pip install "uvicorn[standard]"
+        ```
+
+    A totéž pro každou z volitelných závislostí, které chcete použít.
 
 ---
 

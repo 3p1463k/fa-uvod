@@ -41,7 +41,7 @@ Tento řádek zobrazuje adresu URL, na které se vaše aplikace zobrazuje na va�
 
 Otevřete prohlížeč na adrese <a href="http://127.0.0.1:8000" class="external-link" target="_blank">http://127.0.0.1:8000</a>.
 
-Uvidíte odpověď JSON jako:
+Uvidíte odezvu JSON jako:
 ```JSON
 {"message": "Hello World"}
 ```

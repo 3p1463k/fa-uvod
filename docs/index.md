@@ -9,7 +9,7 @@ Klíčové vlastnosti jsou:
 * **Méně chyb**: Snižte přibližně 40 % chyb způsobených člověkem (vývojářem).
 * **Intuitivní**: Skvělá podpora editoru. Auto napoveda. Méně debugovani.
 * **Jednoduchost**: Navrženo pro snadne použití a učeni. Méně času straveneho čtením dokumentace.
-* **Stručnost**: Minimalizujte duplicitu kódu.Více funkcí z každé deklarace parametru. Méně chyb.
+* **Stručnost**: Minimalizujte duplicitu kódu.Vícero vlastností z každé deklarace parametru. Méně chyb.
 * **Robustnost**: Získejte kód připravený pro produkci. S automatickou interaktivní dokumentací.
 * **Na základě norem**: Založeno na (a plně kompatibilní s) otevřenými standardy pro API: <a href="https://github.com/OAI/OpenAPI-Specification" class="external-link" target="_blank">OpenAPI</a> (previously known as Swagger) and <a href="https://json-schema.org/" class="external-link" target="_blank">JSON Schema</a>.
 
